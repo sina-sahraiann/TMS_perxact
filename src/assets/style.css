@@ -1,0 +1,48 @@
+
+.header-section {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  margin-left: 110px;
+  background-color: white;
+}
+
+.sidenav {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 60px;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.card-color {
+  background-color: #d1d5d9 !important;
+}
+
+
+
+@media (max-width: 576px) {
+  .main-section {
+    margin-left: 0 !important;
+  }
+
+  .header-section {
+    margin-left: 0 !important;
+  }
+
+  .float-profile {
+    position: static;
+    top: -50px;
+    left: -105px;
+  }
+
+  .float-profile-parent {
+    margin-left: 0%;
+    z-index: 1;
+  }
+}
